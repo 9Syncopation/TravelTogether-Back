@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a1245a47c3889d26087a",
+    "revision": "ac19cf9a5852f0b60c0a",
     "url": "/css/app.1360cc96.css"
   },
   {
@@ -128,12 +128,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/img/zurich village.jpg"
   },
   {
-    "revision": "c8b1cc35d933b67e30194b9d1839d3b2",
+    "revision": "606d459bd1aa47c93f17e9fb081515b8",
     "url": "/index.html"
   },
   {
-    "revision": "a1245a47c3889d26087a",
-    "url": "/js/app.6460954d.js"
+    "revision": "ac19cf9a5852f0b60c0a",
+    "url": "/js/app.c6a5d397.js"
   },
   {
     "revision": "3fdbc025f0adf47ce42c",
