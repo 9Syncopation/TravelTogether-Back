@@ -39,7 +39,7 @@ app.use('/api/trip', tripRoutes)
 connectSockets(io)
 
 if (process.env.NODE_ENV !== 'development') {
-    app.use(express.static(path.resolve(__dirname, 'public')));
+    app.use(express.static('public'));
 }
 
 // const logger = require('./services/logger.service')
