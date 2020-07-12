@@ -25,7 +25,7 @@ async function getById(tripsId) {
         const trip = await collection.findOne({"_id":ObjectId(tripsId)})
         return trip;
     } catch (err) {
-        console.log(`ERROR: while finding trip ${tripsId}`)
+        // console.log(`ERROR: while finding trip ${tripsId}`)
         throw err;
     }
 }
@@ -37,7 +37,7 @@ async function update(trip) {
         await collection.replaceOne({"_id":ObjectId(trip._id)}, {$set : trip})
         return trip
     } catch (err) {
-        console.log(`ERROR: cannot update trip ${trip._id}`)
+        // console.log(`ERROR: cannot update trip ${trip._id}`)
         throw err;
     }
 }
